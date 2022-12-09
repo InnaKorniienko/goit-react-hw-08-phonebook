@@ -1,0 +1,38 @@
+.navWrapper {
+  /* display: flex; */
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.userWrapper {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.welcomeName {
+  margin-right: 12px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.link {
+  margin: 60px;
+  display: inline-block;
+  background-color: #aea4e3;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 240px; 
+}
+
+.link:focus
+.link:hover {
+  background-color: #d3ffe8;
+}
